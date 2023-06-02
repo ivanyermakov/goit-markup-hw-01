@@ -12,17 +12,14 @@
 
 /* акцент №2 #F4F4FD */
 
-
-
 :root {
+
     --primary-text-color:#434455;
     --title-text-color: #2E2F42;
     --accent-text-color:#4D5AE5;
     --white-text-color: #FFFFFF;
     --primary-bg-color:#E5E5E5;
     }
-    
-    
     
     .page {
         background: var(--primary-bg-color);
@@ -36,12 +33,6 @@
     .list{ 
         list-style: none 
     }
-    
-    
-    
-    
-    
-    
     
     /* Logo */
     .logo {
@@ -87,3 +78,23 @@
         background-color: var(--accent-text-color);
     }
     
+
+.page {
+    background: var(--primary-bg-color);
+    color: var(--primary-text-color);
+}
+
+h2,h3 {
+    color: var(--title-text-color);
+}
+
+.list{ 
+    list-style: none 
+}
+
+
+
+
+
+
+
