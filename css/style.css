@@ -1,0 +1,89 @@
+/* цвет основного текста #2E2F42 */
+
+
+/* вторичный цвет текста #434455 */
+
+
+/* белый #FFFFFF */
+
+
+/* акцент #4D5AE5 */ 
+
+
+/* акцент №2 #F4F4FD */
+
+
+
+:root {
+    --primary-text-color:#434455;
+    --title-text-color: #2E2F42;
+    --accent-text-color:#4D5AE5;
+    --white-text-color: #FFFFFF;
+    --primary-bg-color:#E5E5E5;
+    }
+    
+    
+    
+    .page {
+        background: var(--primary-bg-color);
+        color: var(--primary-text-color);
+    }
+    
+    h2,h3 {
+        color: var(--title-text-color);
+    }
+    
+    .list{ 
+        list-style: none 
+    }
+    
+    
+    
+    
+    
+    
+    
+    /* Logo */
+    .logo {
+        color: var(--accent-text-color);
+    }
+    
+    
+    /* Site Nav */
+    .site-nav .link {
+     color: var(--title-text-color);
+    }
+     .site-nav .link:hover,
+     .site-nav .link:focus{
+        color: var(--accent-text-color);
+     }
+     
+    .site-nav .link.current {
+        color: var(--title-text-color);
+    }
+    
+    
+    /* Hero */
+    .hero-title{
+        color: var(--white-text-color);
+    }
+    
+    
+    /* Section */
+    .section-title{
+        color:var(--title-text-color) ;
+    }
+    
+    /* Features */
+    
+    .feature-list .title {
+    
+    }
+    
+    /* Button */
+    
+    .button.primary{
+        color: var(--white-text-color);
+        background-color: var(--accent-text-color);
+    }
+    
